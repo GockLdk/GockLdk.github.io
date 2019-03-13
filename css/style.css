@@ -1,0 +1,85 @@
+/* Para que todos los body tenga la fuente y el color de fondo */
+body
+    {
+      font-family: 'Orbitron', sans-serif;
+      background-color: #e0e0e0;
+    } 
+/* Para que cualquiera seccion que tenga la clase MAGO su fuente sea otra */
+.MAGO
+{
+    font-family: 'Playball', cursive;
+}
+
+body.per /* Para que la case per que este en body cambie de letra */
+{
+
+    font-family: 'Varela Round', sans-serif;
+}
+/* CSS de Navbar */
+nav ul a,
+ {
+  color: white;
+  position: center;
+}
+nav .brand-logo {
+  color: white;
+  position: center;
+  margin-top: 15px;
+}
+ /* CSS para las etiquetas p*/
+p {
+  line-height: 2rem;
+}
+
+/* CSS para Navbar */
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+/* CSS del parallax */
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+/* CSS del footer */
+footer.page-footer {
+  margin: 0;
+}
+
+/*Para que las imagenes de las card sean "responsivas"*/
+.card img
+  {
+    max-height: 200px;
+    object-fit: cover;
+  }
+
+  
