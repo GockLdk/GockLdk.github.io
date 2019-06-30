@@ -3,6 +3,9 @@
 <head>
 	<title>Bienvenidos a mi pequeño mundo</title>
 	<meta name ="description="content=" Hola esta es un pqueño resumen de lo que ha sido mi vida">
+	{% if site.google_verify %}
+    <meta name="google-site-verification" content="{{ site.google_verify }}">
+{% endif %}
     <!-- Para que detecte caracteres del espanol -->
 	  <meta charset="UTF-8">
     <!-- Google Fonts -->
