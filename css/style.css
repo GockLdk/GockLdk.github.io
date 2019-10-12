@@ -90,6 +90,7 @@ footer.page-footer {
     position: absolute;
     top: 0;
     left: 0;
+    background: #FFFF;
     display: flex;
     justify-content: center;
     align-items: center;
